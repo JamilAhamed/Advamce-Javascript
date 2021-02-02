@@ -1,4 +1,4 @@
-// const numbers = [3, 4, 5, 6, 7, 8];
+const numbers = [3, 4, 5, 6, 7, 8];
 // const output = [];
 
 // for(let i = 0; i < numbers.length; i++){
@@ -11,8 +11,8 @@ function square (element){
     return element * element;
 }
 
-numbers.map(function(element,index, array){
-    console.log(element, index, array);
+numbers.map(function(element){
+    console.log(element);
 })
 
 // console.log(output);
